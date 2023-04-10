@@ -1,0 +1,25 @@
+﻿@model AdminViewModel;
+@{
+    ViewData["Title"] = "Authorization";
+}
+<form method="post" asp-controller="Home" asp-action="Authorization">
+    <div class="container2">
+    <div class="text_in">
+        <input class="text_field" type="text" required asp-for = "Login">
+        <label class="text_field_lab" asp-for = "Login">Name</label>
+
+    </div>
+    </div>
+    <div class="container2">
+    <div class="text_in">
+        <input class="text_field" type="password" required asp-for="Password">
+        <label class="text_field_lab" asp-for="Password">Password</label>
+
+    </div>
+    </div>
+
+    <div class="buttom">
+        <input class="submit"  type="submit" value="Send" />
+    </div>
+    
+</form>
