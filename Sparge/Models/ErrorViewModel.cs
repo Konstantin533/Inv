@@ -1,4 +1,4 @@
-namespace Invent.Models
+namespace Sparge.Models
 {
     public class ErrorViewModel
     {

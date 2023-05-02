@@ -1,0 +1,19 @@
+﻿@model List<User>
+
+    <table class="table">
+    <tr>
+       
+        <td>Email</td>
+        <td>Сколько раз я скушал спаржи</td>
+    </tr>
+    @foreach (var p in Model)
+    {
+        <tr>
+            
+            <td>@p.Email</td>
+            <td>@p.Members</td>
+            
+        </tr>
+    }
+</table>
+
